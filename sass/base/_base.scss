@@ -9,12 +9,5 @@ html {
   font-size: 62.5%; /* 1 rem ==  10px try inheritance*/
 }
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  /*   font-size: 16px; */
-  line-height: 1.7;
-  border: 1px solid red;
-  color: $color_primary_gray;
-  padding: 3rem;
   box-sizing: border-box;
 }

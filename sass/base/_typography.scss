@@ -1,3 +1,13 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*   font-size: 16px; */
+  line-height: 1.7;
+  border: 1px solid red;
+  color: $color_primary_gray;
+  padding: 3rem;
+}
+
 .heading-primary {
   color: $color_white;
   text-transform: uppercase;
