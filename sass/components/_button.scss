@@ -16,7 +16,7 @@
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     position: relative;
-    font-size: 1.6rem;
+    font-size: $Default-font-size;
   }
   &:hover {
     transform: translateY(-3px);
@@ -78,5 +78,39 @@
     animation: moveInButton 0.3s ease-out 0.75s;
     -webkit-animation: moveInButton 0.3s ease-out 0.75s;
     animation-fill-mode: backwards;
+  }
+}
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $Default-font-size;
+    color: $color_primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color_primary;
+    padding: 3px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+  }
+  &:hover {
+    background-color: $color-primary;
+    color: $color_white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
   }
 }
